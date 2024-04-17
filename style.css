@@ -4,16 +4,15 @@
 }
 
 :root {
-    --primary-color: #8a24dd;
+    --primary-color: #300b63;
 }
 body, html{
-    background-image: url(images/background5.jpg);
+    background-image: url(images/background6.jpg);
     background-repeat: no-repeat;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;      
-    /* background-color: rgb(189, 209, 221); */
 }
 
 /* Container  */
@@ -25,6 +24,7 @@ body, html{
     text-align: center;
     font-size: 1.4rem;
     font-weight: 600;
+    /* transition: 1s; */
 }
 
 input{
@@ -73,6 +73,7 @@ input {
     border-radius: 5px;
     font-size: 1.1rem;
     border: 2px solid var(--primary-color);
+    opacity: 0.8;
     ;
 }
 
@@ -87,8 +88,13 @@ button {
     border: 2px solid var(--primary-color);
     background-color: var(--primary-color);
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 5px;  
+    
 }
+
+#next-btn:hover {background-color: rgb(126, 26, 208);}
+
+#check-btn:hover {background-color: #rgb(126, 26, 208);}
 
 /* Table  */
 table {
@@ -99,7 +105,6 @@ table {
     margin: auto;
     background-color:#fff;
     opacity: 0.9;
-
 }
 
 table>caption {
